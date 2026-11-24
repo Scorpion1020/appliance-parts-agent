@@ -8,9 +8,9 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Tests](https://img.shields.io/badge/Automated_Tests-130_Passing-brightgreen)](#验证与评测结果)
 
-面向冰箱与洗碗机维修配件场景的**垂直领域 AI Agent 全栈应用**，采用 **Next.js 15 + React 19（前端交互与会话代理）** 与 **FastAPI + Python LangGraph（纯 Python 智能体编排、检索与持久化）** 前后端分离架构，并提供独立的只读 **MCP（Model Context Protocol）** 服务接口。
+面向冰箱与洗碗机维修配件场景的垂直领域 AI Agent 全栈应用，采用 **Next.js 15 + React 19（前端与会话代理）** 和 **FastAPI + Python LangGraph（智能体编排、检索与持久化）** 前后端分离架构，并提供独立的只读 **MCP（Model Context Protocol）** 接口。
 
-项目重点解决大模型在垂类导购落地中的四大工程痛点：**幻觉推荐、型号适配误判、越权写入与长耗时交互体验**。
+项目主要围绕垂类导购中的实际问题设计：**减少价格与适配幻觉、防止模型越权修改购物车、缩短多步工具调用的等待体感**。
 
 > 💡 **演示截图位**：本地启动后可将对话流式进度与确认加购界面截图放至 `docs/assets/demo.png` 并在此处取消注释展示。
 > <!-- ![Demo Screenshot](docs/assets/demo.png) -->
@@ -21,7 +21,7 @@
 
 ![系统架构图](docs/assets/architecture.svg)
 
-详细分层设计与安全护栏见 [系统架构说明](PartSelectChatAgent/docs/architecture.md)。
+详细设计与实现说明见 [系统架构说明](PartSelectChatAgent/docs/architecture.md)。
 
 ---
 
