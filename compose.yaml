@@ -1,0 +1,37 @@
+name: appliance-agent
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ShoppingAgent/Dockerfile
+    env_file: ${AGENT_ENV_FILE:-./PartSelectChatAgent/.env.local}
+    environment:
+      SHOPPING_AGENT_CATALOG_PATH: /app/data/parts-catalog.json
+      SHOPPING_AGENT_CART_DB: /state/carts.sqlite3
+      # 容器默认不携带嵌入模型；显式准备模型和索引后才启用 hybrid。
+      SHOPPING_AGENT_RETRIEVAL: bm25
+    volumes:
+      - cart-state:/state
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+  frontend:
+    build: ./PartSelectChatAgent
+    env_file: ${AGENT_ENV_FILE:-./PartSelectChatAgent/.env.local}
+    environment:
+      SHOPPING_AGENT_URL: http://backend:8000
+      COOKIE_SECURE: "false"
+    ports:
+      - "127.0.0.1:${AGENT_HTTP_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+volumes:
+  cart-state:

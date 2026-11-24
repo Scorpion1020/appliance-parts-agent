@@ -1,0 +1,604 @@
+[
+  {
+    "id": "PS11752778",
+    "type": "product",
+    "name": "Refrigerator Door Shelf Bin",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 39.99,
+    "currency": "USD",
+    "description": "Door-mounted refrigerator storage bin. Verify the full model before ordering; the price shown is for this demonstration only.",
+    "manufacturer_part_number": "WPW10321304",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "broken refrigerator door bin",
+      "cracked shelf bin"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11752778",
+      "WPW10321304",
+      "broken refrigerator door bin",
+      "cracked shelf bin"
+    ],
+    "source_url": "https://www.partselect.com/PS11752778-Whirlpool-WPW10321304-Refrigerator-Door-Shelf-Bin.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "WPW10300024",
+    "type": "product",
+    "name": "Refrigerator Ice Maker Assembly",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 109.99,
+    "currency": "USD",
+    "description": "Automatic ice maker assembly for compatible Whirlpool refrigerators.",
+    "manufacturer_part_number": "WPW10300024",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "ice maker not working",
+      "no ice",
+      "ice cubes are small"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "WPW10300024",
+      "WPW10300024",
+      "ice maker not working",
+      "no ice",
+      "ice cubes are small"
+    ],
+    "source_url": "https://www.partselect.com/PS11752391-Whirlpool-WPW10300024-Ice-Maker.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "W10408179",
+    "type": "product",
+    "name": "Refrigerator Water Inlet Valve",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 64.95,
+    "currency": "USD",
+    "description": "Controls water flow to the ice maker and dispenser in compatible refrigerators.",
+    "manufacturer_part_number": "W10408179",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "ice maker not working",
+      "no water",
+      "slow water flow"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "W10408179",
+      "W10408179",
+      "ice maker not working",
+      "no water",
+      "slow water flow"
+    ],
+    "source_url": "https://www.partselect.com/Refrigerator-Water-Inlet-Valve-W10408179.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "WPW10448645",
+    "type": "product",
+    "name": "Dishwasher Middle Spray Arm",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 28.5,
+    "currency": "USD",
+    "description": "Middle spray arm for model-specific dishwasher wash systems. Verify the complete model before ordering.",
+    "manufacturer_part_number": "WPW10448645",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "poor cleaning",
+      "dishes still dirty",
+      "spray arm broken"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "WPW10448645",
+      "WPW10448645",
+      "poor cleaning",
+      "dishes still dirty",
+      "spray arm broken"
+    ],
+    "source_url": "https://www.partselect.com/PS11754873-Whirlpool-WPW10448645-Middle-Spray-Arm.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "WPW10195417V",
+    "type": "product",
+    "name": "Dishwasher Rack Wheel",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 12.99,
+    "currency": "USD",
+    "description": "Replacement wheel that supports smooth movement of the dishwasher rack.",
+    "manufacturer_part_number": "WPW10195417V",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "rack not rolling",
+      "rack falls off track",
+      "rack wheel broken"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "WPW10195417V",
+      "WPW10195417V",
+      "rack not rolling",
+      "rack falls off track",
+      "rack wheel broken"
+    ],
+    "source_url": "https://www.partselect.com/Dishwasher-Rack-Wheel-WPW10195417V.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11746337",
+    "type": "product",
+    "name": "Dishwasher Lower Dishrack Wheel Assembly",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 18.49,
+    "currency": "USD",
+    "description": "Lower dishrack wheel assembly with clip for smooth rack travel. Demonstration catalog entry.",
+    "manufacturer_part_number": "WPW10195416",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "rack not rolling",
+      "lower rack stuck",
+      "broken rack wheel"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11746337",
+      "WPW10195416",
+      "rack not rolling",
+      "lower rack stuck",
+      "broken rack wheel"
+    ],
+    "source_url": "https://www.partselect.com/PS11746337-Whirlpool-WPW10195416-Lower-Dishrack-Wheel.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11755833",
+    "type": "product",
+    "name": "Dishwasher Door Gasket Seal",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 34.95,
+    "currency": "USD",
+    "description": "Perimeter tub door gasket that helps prevent water leaks around the dishwasher door. Demonstration catalog entry.",
+    "manufacturer_part_number": "W10542314",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "dishwasher leaking",
+      "water dripping from door",
+      "worn door seal"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11755833",
+      "W10542314",
+      "dishwasher leaking",
+      "water dripping from door",
+      "worn door seal"
+    ],
+    "source_url": "https://www.partselect.com/PS11755833-Whirlpool-W10542314-Dishwasher-Door-Gasket.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11753379",
+    "type": "product",
+    "name": "Dishwasher Drain Pump",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 54.99,
+    "currency": "USD",
+    "description": "Electric drain pump that removes wastewater from the dishwasher sump during the drain cycle. Demonstration catalog entry.",
+    "manufacturer_part_number": "WPW10348269",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "dishwasher not draining",
+      "standing water in tub",
+      "humming during drain"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11753379",
+      "WPW10348269",
+      "dishwasher not draining",
+      "standing water in tub",
+      "humming during drain"
+    ],
+    "source_url": "https://www.partselect.com/PS11753379-Whirlpool-WPW10348269-Drain-Pump.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11757023",
+    "type": "product",
+    "name": "Dishwasher Heating Element",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 49.5,
+    "currency": "USD",
+    "description": "Tub heating element that heats wash water and assists with dish drying. Demonstration catalog entry.",
+    "manufacturer_part_number": "W10518394",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "dishes not drying",
+      "water not heating",
+      "cold wash cycle"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11757023",
+      "W10518394",
+      "dishes not drying",
+      "water not heating",
+      "cold wash cycle"
+    ],
+    "source_url": "https://www.partselect.com/PS11757023-Whirlpool-W10518394-Heating-Element.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11748801",
+    "type": "product",
+    "name": "Dishwasher Upper Rack Adjuster Positioner",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 22.75,
+    "currency": "USD",
+    "description": "Upper rack adjuster mechanism that lets the top dishrack raise or lower smoothly. Demonstration catalog entry.",
+    "manufacturer_part_number": "WPW10195840",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "upper rack sagging",
+      "rack adjuster broken",
+      "top rack will not stay level"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11748801",
+      "WPW10195840",
+      "upper rack sagging",
+      "rack adjuster broken",
+      "top rack will not stay level"
+    ],
+    "source_url": "https://www.partselect.com/PS11748801-Whirlpool-WPW10195840-Rack-Adjuster.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11756150",
+    "type": "product",
+    "name": "Dishwasher Sump Filter Cup",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 26.4,
+    "currency": "USD",
+    "description": "Removable cylindrical mesh filter that traps food particles in the dishwasher sump. Demonstration catalog entry.",
+    "manufacturer_part_number": "W10705575",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "poor cleaning",
+      "gritty residue on dishes",
+      "dishwasher odor",
+      "torn filter mesh"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11756150",
+      "W10705575",
+      "poor cleaning",
+      "gritty residue on dishes",
+      "dishwasher odor",
+      "torn filter mesh"
+    ],
+    "source_url": "https://www.partselect.com/PS11756150-Whirlpool-W10705575-Filter-Cup.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS12741258",
+    "type": "product",
+    "name": "GE Dishwasher Door Latch Switch",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 31.8,
+    "currency": "USD",
+    "description": "Door latch assembly with interlock switch that detects when the GE dishwasher door is closed. Demonstration catalog entry.",
+    "manufacturer_part_number": "WD21X10490",
+    "brand": "GE",
+    "symptoms": [
+      "dishwasher will not start",
+      "door will not latch",
+      "lights blinking no start"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "GE",
+      "PS12741258",
+      "WD21X10490",
+      "dishwasher will not start",
+      "door will not latch",
+      "lights blinking no start"
+    ],
+    "source_url": "https://www.partselect.com/PS12741258-GE-WD21X10490-Door-Latch.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11726733",
+    "type": "product",
+    "name": "GE Dishwasher Drain Pump Kit",
+    "market_id": "US",
+    "language": "en",
+    "category": "dishwasher",
+    "price": 62,
+    "currency": "USD",
+    "description": "Replacement drain pump kit for compatible GE dishwashers experiencing slow or failed drainage. Demonstration catalog entry.",
+    "manufacturer_part_number": "WD19X25187",
+    "brand": "GE",
+    "symptoms": [
+      "dishwasher not draining",
+      "standing water",
+      "drain error"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "GE",
+      "PS11726733",
+      "WD19X25187",
+      "dishwasher not draining",
+      "standing water",
+      "drain error"
+    ],
+    "source_url": "https://www.partselect.com/PS11726733-GE-WD19X25187-Drain-Pump-Kit.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11752927",
+    "type": "product",
+    "name": "Refrigerator Fresh Food Door Gasket",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 89.5,
+    "currency": "USD",
+    "description": "Magnetic perimeter door seal for compatible refrigerators to maintain airtight cooling. Demonstration catalog entry.",
+    "manufacturer_part_number": "WPW10312695",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "refrigerator door not closing",
+      "warm fridge",
+      "condensation around door",
+      "torn door gasket"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11752927",
+      "WPW10312695",
+      "refrigerator door not closing",
+      "warm fridge",
+      "condensation around door",
+      "torn door gasket"
+    ],
+    "source_url": "https://www.partselect.com/PS11752927-Whirlpool-WPW10312695-Door-Gasket.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11750057",
+    "type": "product",
+    "name": "Refrigerator Evaporator Fan Motor",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 58.25,
+    "currency": "USD",
+    "description": "Circulates cold air over the evaporator coils and throughout the refrigerator and freezer compartments. Demonstration catalog entry.",
+    "manufacturer_part_number": "WP2315549",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "refrigerator warm",
+      "freezer cold but fridge warm",
+      "loud squealing noise"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11750057",
+      "WP2315549",
+      "refrigerator warm",
+      "freezer cold but fridge warm",
+      "loud squealing noise"
+    ],
+    "source_url": "https://www.partselect.com/PS11750057-Whirlpool-WP2315549-Evaporator-Fan-Motor.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11740740",
+    "type": "product",
+    "name": "Refrigerator Defrost Bimetal Thermostat",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 27.99,
+    "currency": "USD",
+    "description": "Clips onto the evaporator tubing to regulate the defrost heater and prevent frost buildup. Demonstration catalog entry.",
+    "manufacturer_part_number": "WPW10225581",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "frost buildup in freezer",
+      "evaporator coils iced over",
+      "refrigerator not cooling"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11740740",
+      "WPW10225581",
+      "frost buildup in freezer",
+      "evaporator coils iced over",
+      "refrigerator not cooling"
+    ],
+    "source_url": "https://www.partselect.com/PS11740740-Whirlpool-WPW10225581-Defrost-Thermostat.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11743427",
+    "type": "product",
+    "name": "Refrigerator Replacement Water Filter",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 49.99,
+    "currency": "USD",
+    "description": "Push-in water filtration cartridge for compatible Whirlpool refrigerator water dispensers and ice makers. Demonstration catalog entry.",
+    "manufacturer_part_number": "EDR1RXD1",
+    "brand": "Whirlpool",
+    "symptoms": [
+      "slow water dispenser",
+      "bad tasting ice",
+      "water filter indicator on"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "Whirlpool",
+      "PS11743427",
+      "EDR1RXD1",
+      "slow water dispenser",
+      "bad tasting ice",
+      "water filter indicator on"
+    ],
+    "source_url": "https://www.partselect.com/PS11743427-Whirlpool-EDR1RXD1-Water-Filter.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS12582112",
+    "type": "product",
+    "name": "GE Refrigerator Evaporator Fan Motor",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 74.9,
+    "currency": "USD",
+    "description": "Fresh food evaporator fan motor for compatible GE French-door and bottom-freezer refrigerators. Demonstration catalog entry.",
+    "manufacturer_part_number": "WR60X26866",
+    "brand": "GE",
+    "symptoms": [
+      "ge refrigerator warm",
+      "not cooling enough",
+      "unusual fan noise"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "GE",
+      "PS12582112",
+      "WR60X26866",
+      "ge refrigerator warm",
+      "not cooling enough",
+      "unusual fan noise"
+    ],
+    "source_url": "https://www.partselect.com/PS12582112-GE-WR60X26866-Evaporator-Fan-Motor.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS11766956",
+    "type": "product",
+    "name": "GE Refrigerator Main Control Board",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 168,
+    "currency": "USD",
+    "description": "Main electronic control board managing compressor, defrost, and fan operation in compatible GE refrigerators. Demonstration catalog entry.",
+    "manufacturer_part_number": "WR55X10942P",
+    "brand": "GE",
+    "symptoms": [
+      "refrigerator not cooling",
+      "clicking noise",
+      "compressor not starting"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "GE",
+      "PS11766956",
+      "WR55X10942P",
+      "refrigerator not cooling",
+      "clicking noise",
+      "compressor not starting"
+    ],
+    "source_url": "https://www.partselect.com/PS11766956-GE-WR55X10942P-Main-Control-Board.htm",
+    "data_origin": "demo_seed"
+  },
+  {
+    "id": "PS12722959",
+    "type": "product",
+    "name": "GE Refrigerator Freezer Door Gasket",
+    "market_id": "US",
+    "language": "en",
+    "category": "refrigerator",
+    "price": 84.2,
+    "currency": "USD",
+    "description": "Replacement freezer door seal gasket for compatible GE refrigerators to stop air leaks and frost. Demonstration catalog entry.",
+    "manufacturer_part_number": "WR14X27235",
+    "brand": "GE",
+    "symptoms": [
+      "freezer door not closing",
+      "frost near door",
+      "air leak"
+    ],
+    "available": true,
+    "stock_qty": null,
+    "tags": [
+      "GE",
+      "PS12722959",
+      "WR14X27235",
+      "freezer door not closing",
+      "frost near door",
+      "air leak"
+    ],
+    "source_url": "https://www.partselect.com/PS12722959-GE-WR14X27235-Freezer-Door-Gasket.htm",
+    "data_origin": "demo_seed"
+  }
+]

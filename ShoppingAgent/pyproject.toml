@@ -1,0 +1,38 @@
+[project]
+name = "shopping-agent-tools"
+version = "0.1.0"
+description = "FastAPI tool layer for an AI shopping agent."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.111.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.7.0",
+  "httpx>=0.27.0,<1",
+  "langgraph==1.2.12",
+]
+
+[project.optional-dependencies]
+mcp = ["mcp==1.30.0"]
+retrieval = [
+  "fastembed==0.7.4",
+  "pypdf==6.19.0",
+]
+dev = [
+  "pytest>=8.0.0",
+  "httpx>=0.27.0",
+]
+embeddings = [
+  "sentence-transformers>=3.0.0",
+  "numpy>=1.26.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

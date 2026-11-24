@@ -1,0 +1,36 @@
+# Environment & Secrets (NEVER commit real keys)
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.local.example
+
+# Dependencies & Virtual Environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Build Outputs & Caches
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Runtime Databases & Large Generated Artifacts
+*.sqlite3
+*.sqlite3-*
+*.db
+*.npz
+embedding-cache/
+catalog_embeddings.json
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

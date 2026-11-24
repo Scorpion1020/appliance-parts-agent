@@ -1,0 +1,46 @@
+{
+  "name": "partselect-ai-demo",
+  "version": "0.1.0",
+  "private": true,
+  "overrides": {
+    "next": { "postcss": "8.5.28" }
+  },
+  "scripts": {
+    "delivery:export": "node scripts/exportDelivery.mjs",
+    "eval:tasks": "tsx scripts/evalTasks.ts",
+    "eval:live": "tsx scripts/evalLive.ts",
+    "knowledge:build": "tsx scripts/buildKnowledge.ts",
+    "knowledge:check": "tsx scripts/buildKnowledge.ts --check",
+    "export:shopping": "tsx scripts/exportShoppingCatalog.ts",
+    "test": "node scripts/runTests.mjs",
+    "test:integration": "tsx scripts/testIntegration.ts",
+    "eval:evidence": "tsx scripts/evalEvidence.ts",
+    "dev": "next dev",
+    "dev:integrated": "bash scripts/devIntegrated.sh",
+    "clean": "node scripts/cleanNext.mjs",
+    "dev:clean": "npm run clean && next dev",
+    "build": "npm run knowledge:check && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "eval": "tsx scripts/runEvals.ts",
+    "seed:data": "tsx scripts/seedData.ts",
+    "validate:data": "tsx scripts/validateCatalog.ts"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.19",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}

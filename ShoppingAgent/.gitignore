@@ -1,0 +1,30 @@
+# Python
+*.sqlite3
+*.sqlite3-*
+data/embedding-cache/
+data/knowledge-vectors.npz
+__pycache__/
+*.py[cod]
+
+# Test cache
+.pytest_cache/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

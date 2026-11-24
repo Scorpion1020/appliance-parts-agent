@@ -1,0 +1,301 @@
+{
+  "reviewedCompatibility": [
+    {
+      "partNumber": "PS11752778",
+      "modelNumber": "WSF26C3EXF01",
+      "verdict": "compatible",
+      "excerpt": "Supplier Q&A identifies PS11752778 as the lower door bin for WSF26C3EXF01 (paraphrased).",
+      "source": {
+        "title": "Reviewed supplier Q&A: lower door bin",
+        "type": "compatibility",
+        "origin": "reviewed",
+        "retrievedAt": "2026-10-01T00:00:00Z",
+        "url": "https://www.partselect.com/PS11752778-Whirlpool-WPW10321304-Refrigerator-Door-Shelf-Bin.htm"
+      }
+    },
+    {
+      "partNumber": "WPW10448645",
+      "modelNumber": "ADB1500ADB1",
+      "verdict": "compatible",
+      "excerpt": "ADB1500ADB1 appears in the supplier's compatible-model table for middle spray arm WPW10448645 (paraphrased).",
+      "source": {
+        "title": "Reviewed model table: middle spray arm",
+        "type": "compatibility",
+        "origin": "reviewed",
+        "retrievedAt": "2026-10-01T00:00:00Z",
+        "url": "https://www.partselect.com/PS11754873-Whirlpool-WPW10448645-Middle-Spray-Arm.htm"
+      }
+    }
+  ],
+  "demoPartDetails": {
+    "PS11752778": {
+      "compatibleModels": [],
+      "installationSteps": []
+    },
+    "WPW10300024": {
+      "compatibleModels": [
+        "WRS588FIHZ00",
+        "WRX735SDHZ00",
+        "WRF535SWHZ00"
+      ],
+      "installationSteps": [
+        "Disconnect power and remove the ice bin.",
+        "Remove the mounting screws and unplug the ice maker harness.",
+        "Transfer any mounting bracket or fill tube components if needed.",
+        "Install the new assembly and reconnect the harness.",
+        "Restore power and allow a full harvest cycle."
+      ]
+    },
+    "W10408179": {
+      "compatibleModels": [
+        "WRS588FIHZ00",
+        "WRF535SWHZ00",
+        "GI6SARXXF04"
+      ],
+      "installationSteps": [
+        "Unplug the refrigerator and shut off the water supply.",
+        "Remove the rear access panel.",
+        "Disconnect the inlet and outlet water lines from the old valve.",
+        "Move the wiring harness and install the replacement valve.",
+        "Restore water, check for leaks, and test ice production."
+      ]
+    },
+    "WPW10448645": {
+      "compatibleModels": [],
+      "installationSteps": []
+    },
+    "WPW10195417V": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDF520PADM7",
+        "WDT730PAHZ0"
+      ],
+      "installationSteps": [
+        "Pull the rack out until the damaged wheel is accessible.",
+        "Release the old wheel from the rack rail.",
+        "Snap the replacement wheel into place.",
+        "Test the rack movement on both rails.",
+        "Reinstall the rack and confirm smooth travel."
+      ]
+    },
+    "PS11746337": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDT750SAHZ0",
+        "WDF540PADM3"
+      ],
+      "installationSteps": [
+        "Pull the lower rack out of the dishwasher tub.",
+        "Press the locking tab to release the worn wheel assembly.",
+        "Snap the replacement assembly onto the rack wire until it clicks.",
+        "Slide the rack back onto the track and verify smooth alignment."
+      ]
+    },
+    "PS11755833": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDF520PADM7",
+        "WDT720PADM2"
+      ],
+      "installationSteps": [
+        "Turn off power to the dishwasher and open the door fully.",
+        "Pull the old gasket out of the tub channel.",
+        "Clean any soap residue from the channel.",
+        "Press the new gasket evenly into the channel starting from the top center.",
+        "Close the door for several hours to let the seal seat properly."
+      ]
+    },
+    "PS11753379": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDT750SAHZ0",
+        "WDF520PADM7"
+      ],
+      "installationSteps": [
+        "Disconnect power and shut off the water supply.",
+        "Remove the lower access panel and place a towel under the sump.",
+        "Unplug the wire harness and twist the old drain pump counterclockwise to remove.",
+        "Install the replacement pump, lock it into place, and reconnect the harness.",
+        "Restore power and run a short rinse/drain test to check for leaks."
+      ]
+    },
+    "PS11757023": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDF540PADM3",
+        "ADB1500ADB1"
+      ],
+      "installationSteps": [
+        "Disconnect electrical power and remove the lower rack.",
+        "Access the underside of the tub and disconnect the two heating element terminals.",
+        "Unscrew the mounting nuts and lift the old element out from inside the tub.",
+        "Insert the new heating element, secure the mounting nuts, and reconnect terminals."
+      ]
+    },
+    "PS11748801": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDT750SAHZ0",
+        "WDT730PAHZ0"
+      ],
+      "installationSteps": []
+    },
+    "PS11756150": {
+      "compatibleModels": [
+        "WDT780SAEM1",
+        "WDF520PADM7",
+        "ADB1500ADB1"
+      ],
+      "installationSteps": []
+    },
+    "PS12741258": {
+      "compatibleModels": [
+        "GDT655SSJ0SS",
+        "GDF520PGJ2WW",
+        "PDT715SYN0FS"
+      ],
+      "installationSteps": []
+    },
+    "PS11726733": {
+      "compatibleModels": [
+        "GDT655SSJ0SS",
+        "GDF520PGJ2WW"
+      ],
+      "installationSteps": []
+    },
+    "PS11752927": {
+      "compatibleModels": [
+        "WSF26C3EXF01",
+        "WRS588FIHZ00",
+        "WRF535SWHZ00"
+      ],
+      "installationSteps": []
+    },
+    "PS11750057": {
+      "compatibleModels": [
+        "WRS588FIHZ00",
+        "WRF535SWHZ00",
+        "WSF26C3EXF01"
+      ],
+      "installationSteps": []
+    },
+    "PS11740740": {
+      "compatibleModels": [
+        "WRS588FIHZ00",
+        "WRX735SDHZ00",
+        "WSF26C3EXF01"
+      ],
+      "installationSteps": []
+    },
+    "PS11743427": {
+      "compatibleModels": [
+        "WRS588FIHZ00",
+        "WRX735SDHZ00",
+        "WRF535SWHZ00"
+      ],
+      "installationSteps": []
+    },
+    "PS12582112": {
+      "compatibleModels": [
+        "GFE28GYNFS",
+        "PFE28KYNFS",
+        "GNE27JYMFS"
+      ],
+      "installationSteps": []
+    },
+    "PS11766956": {
+      "compatibleModels": [
+        "GFE28GYNFS",
+        "GSS25GSHSS"
+      ],
+      "installationSteps": []
+    },
+    "PS12722959": {
+      "compatibleModels": [
+        "GFE28GYNFS",
+        "PFE28KYNFS"
+      ],
+      "installationSteps": []
+    }
+  },
+  "troubleshootingGuides": [
+    {
+      "issue": "ice maker not working",
+      "keywords": [
+        "ice maker not working",
+        "no ice",
+        "ice maker",
+        "ice production"
+      ],
+      "diagnosticFlow": [
+        "Confirm the freezer is cold enough and the ice maker is switched on.",
+        "Check the water supply line for kinks, clogs, or low pressure.",
+        "Inspect the fill tube for ice blockage.",
+        "Listen for the inlet valve opening during a fill cycle.",
+        "If the unit powers but does not harvest, the ice maker assembly may be failing."
+      ],
+      "possibleCauses": [
+        "Low water pressure or a blocked supply line",
+        "Frozen fill tube",
+        "Failed inlet valve",
+        "Failed ice maker module"
+      ],
+      "likelyParts": [
+        "WPW10300024",
+        "W10408179"
+      ],
+      "sourceUrl": "https://www.partselect.com/Repair/Refrigerator/Ice-Maker-Not-Working.htm",
+      "sourceType": "troubleshooting"
+    },
+    {
+      "issue": "dishwasher leaking",
+      "keywords": [
+        "dishwasher leaking",
+        "water dripping",
+        "leak",
+        "door leak"
+      ],
+      "diagnosticFlow": [
+        "Inspect the door gasket for tears, flattening, or gaps.",
+        "Make sure the door latches securely and the rack is not blocking the seal.",
+        "Check for detergent overuse or overfilling that can cause foam leaks.",
+        "Look underneath for loose hose connections if the leak persists.",
+        "If the leak tracks around the door, the door gasket is the first part to test."
+      ],
+      "possibleCauses": [
+        "Flattened or torn door gasket",
+        "Door not closing evenly",
+        "Excess suds from too much detergent",
+        "Loose hose connection"
+      ],
+      "likelyParts": [],
+      "sourceUrl": "https://www.partselect.com/Repair/Dishwasher/Leaking-Water.htm",
+      "sourceType": "troubleshooting"
+    },
+    {
+      "issue": "poor cleaning",
+      "keywords": [
+        "poor cleaning",
+        "dirty dishes",
+        "dishes still dirty"
+      ],
+      "diagnosticFlow": [
+        "Verify that the spray arms spin freely and are not clogged with debris.",
+        "Clean the spray arm holes and filter screen.",
+        "Confirm water temperature and detergent are appropriate.",
+        "Use the exact model manual to identify which spray arm needs inspection."
+      ],
+      "possibleCauses": [
+        "Blocked spray arm",
+        "Worn spray arm",
+        "Clogged filter screen",
+        "Low water circulation"
+      ],
+      "likelyParts": [
+        "WPW10448645"
+      ],
+      "sourceUrl": "https://www.partselect.com/Repair/Dishwasher/Poor-Cleaning.htm",
+      "sourceType": "troubleshooting"
+    }
+  ]
+}

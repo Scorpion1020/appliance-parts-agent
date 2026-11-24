@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    name: Backend Tests & Retrieval Benchmark
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: ShoppingAgent
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install -r requirements-dev.lock && python -m pip install --no-deps -e .
+      - name: Verify catalog resources
+        run: test -f data/parts-catalog.json && test -f data/evidence-data.json
+      - name: Run pytest suite (68 tests)
+        run: python -m pytest -q
+      - name: Run 40-case bilingual retrieval benchmark
+        run: python -m app.agent.eval_benchmark
+
+  frontend:
+    name: Frontend Tests & Production Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: PartSelectChatAgent
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: PartSelectChatAgent/package-lock.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Verify knowledge resources
+        run: test -f knowledge/manifest.json && test -f data/generated/knowledge-index.json && test -f tests/tsconfig.json
+      - name: Check knowledge consistency
+        run: npm run knowledge:check
+      - name: Run unit tests (62 tests)
+        run: npm test
+      - name: Build production bundle
+        run: npm run build
