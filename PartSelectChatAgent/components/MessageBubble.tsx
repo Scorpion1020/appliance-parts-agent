@@ -31,7 +31,7 @@ export function MessageBubble({
   onConfirmCart,
   onFeedbackSaved,
   busy,
-  showDebug = true,
+  showDebug = false,
   locale = "zh"
 }: MessageBubbleProps) {
   const t = UI_TEXT[locale];
@@ -203,7 +203,7 @@ export function MessageBubble({
                             : source.origin === "reviewed"
                               ? t.sourceOriginReviewed
                               : t.sourceOriginDemo}
-                          {source.retrievedAt ? ` · ${source.retrievedAt}` : ""}
+                          {source.retrievedAt ? ` · ${source.retrievedAt.slice(0, 10)}` : ""}
                         </p>
                       </li>
                     ))}

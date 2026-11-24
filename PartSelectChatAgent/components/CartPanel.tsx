@@ -147,27 +147,19 @@ export function CartPanel({
               </summary>
               <dl className="mt-3 grid grid-cols-2 gap-2 text-xs">
                 <div className="rounded-lg bg-[#f4f6f9] px-2.5 py-2">
-                  <dt className="text-[11px] text-[#6b7280]">{locale === "zh" ? "完成轮次" : "Turns"}</dt>
+                  <dt className="text-[11px] text-[#6b7280]">{locale === "zh" ? "咨询轮次" : "Turns"}</dt>
                   <dd className="mt-0.5 font-semibold text-[#1f2937]">
                     {metrics.completedTurns}/{metrics.totalTurns}
                   </dd>
                 </div>
                 <div className="rounded-lg bg-[#f4f6f9] px-2.5 py-2">
-                  <dt className="text-[11px] text-[#6b7280]">{locale === "zh" ? "平均耗时" : "Avg Latency"}</dt>
-                  <dd className="mt-0.5 font-semibold text-[#1f2937]">{Math.round(metrics.avgLatencyMs)} ms</dd>
-                </div>
-                <div className="rounded-lg bg-[#f4f6f9] px-2.5 py-2">
-                  <dt className="text-[11px] text-[#6b7280]">{locale === "zh" ? "加购转化" : "Cart Funnel"}</dt>
+                  <dt className="text-[11px] text-[#6b7280]">{locale === "zh" ? "加购确认" : "Confirmed"}</dt>
                   <dd className="mt-0.5 font-semibold text-[#1f2937]">
                     {metrics.confirmedAdditions}/{metrics.cartProposals}
                   </dd>
                 </div>
-                <div className="rounded-lg bg-[#f4f6f9] px-2.5 py-2">
-                  <dt className="text-[11px] text-[#6b7280]">{locale === "zh" ? "累计 Token" : "Tokens"}</dt>
-                  <dd className="mt-0.5 font-semibold text-[#1f2937]">{metrics.totalTokens}</dd>
-                </div>
                 <div className="col-span-2 flex items-center justify-between rounded-lg bg-[#f4f6f9] px-2.5 py-2">
-                  <span className="text-[11px] text-[#6b7280]">{locale === "zh" ? "用户反馈" : "Feedback"}</span>
+                  <span className="text-[11px] text-[#6b7280]">{locale === "zh" ? "服务反馈" : "Feedback"}</span>
                   <span className="font-semibold text-[#1f2937]">
                     👍 {metrics.feedback.up} · 👎 {metrics.feedback.down}
                   </span>

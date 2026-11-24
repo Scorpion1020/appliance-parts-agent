@@ -5,7 +5,7 @@ import { localizeStatus, localizeText, UI_TEXT, type Locale } from "@/lib/i18n";
 export function KnowledgeEvidence({
   searches,
   locale = "zh",
-  showDebug = true
+  showDebug = false
 }: {
   searches: KnowledgeSearch[];
   locale?: Locale;
