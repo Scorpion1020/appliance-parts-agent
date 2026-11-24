@@ -19,24 +19,7 @@
 
 ## 系统架构
 
-```mermaid
-flowchart TD
-    U["浏览器前端<br/>Next.js 15 / React 19 / SSE 进度 / 确认卡片 / 反馈与指标看板"]
-        -->|"POST /api/chat/stream, /api/conversation, /api/feedback, /api/metrics"| N["Next.js 服务端代理<br/>会话 Cookie / 请求校验 / 409 上下文复核"]
-    N -->|"POST /agent/stream, /carts/*, /products/*"| F["FastAPI + Python LangGraph 后端"]
-
-    subgraph Backend["ShoppingAgent (纯 Python 容器)"]
-        F --> D["decide 节点<br/>原生多工具调用 + httpx 连接池 + 429/5xx 退避重试 + 备用模型降级"]
-        D --> E["execute 节点<br/>白名单校验 / 6步55s预算 / 重复调用指纹拦截 / 防 Prompt Injection"]
-        E --> T["7 类只读与建议工具<br/>目录检索 / 详情 / 90天适配核验 / 安装 / 排障 / 双语 RAG / 待确认加购"]
-        T -->|"回传结构化结果"| D
-        D -->|"完成或兜底"| S["summary 节点<br/>受控中文摘要 (仅消费已核验 JSON)"]
-        E --> DB[("SQLite 持久化<br/>会话记忆 / 租约 / 幂等购物车 / 反馈与指标")]
-    end
-
-    MCP["外部 AI 客户端"] -->|"MCP stdio (只读)"| MS["FastMCP 独立服务<br/>app.agent.mcp_server"]
-    MS --> T
-```
+![系统架构图](docs/assets/architecture.svg)
 
 详细分层设计与安全护栏见 [系统架构说明](PartSelectChatAgent/docs/architecture.md)。
 

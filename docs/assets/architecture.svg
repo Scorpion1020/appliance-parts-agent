@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 650" width="1120" height="650" role="img" aria-label="Appliance Parts Agent System Architecture">
+  <defs>
+    <style>
+      .font { font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .title { font-size: 18px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-size: 12px; font-weight: 500; fill: #64748b; }
+      .section-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.6px; }
+      .card-title { font-size: 14px; font-weight: 700; fill: #0f172a; }
+      .card-sub { font-size: 11.5px; font-weight: 400; fill: #475569; }
+      .pill-title { font-size: 12.5px; font-weight: 700; fill: #1e293b; }
+      .pill-sub { font-size: 11px; font-weight: 400; fill: #64748b; }
+      .edge-label { font-size: 11px; font-weight: 600; fill: #475569; }
+      .badge-text { font-size: 10.5px; font-weight: 700; }
+    </style>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+    <marker id="arrow-slate" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrow-indigo" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#4f46e5"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#7c3aed"/>
+    </marker>
+    <marker id="arrow-emerald" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#059669"/>
+    </marker>
+  </defs>
+
+  <!-- Outer Canvas -->
+  <rect x="0" y="0" width="1120" height="650" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="32" y="38" class="font title">Appliance Parts Agent · 系统分层架构</text>
+  <text x="32" y="57" class="font subtitle">Next.js 15 前端代理  +  FastAPI / Python LangGraph 有界编排  +  双语 RAG 与确认式安全写入  +  独立 FastMCP</text>
+
+  <!-- Legend Pills Top Right -->
+  <rect x="752" y="24" width="108" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="806" y="40" text-anchor="middle" class="font badge-text" fill="#1d4ed8">Next.js 前端层</text>
+  <rect x="870" y="24" width="114" height="24" rx="12" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="927" y="40" text-anchor="middle" class="font badge-text" fill="#4338ca">LangGraph 编排</text>
+  <rect x="994" y="24" width="94" height="24" rx="12" fill="#faf5ff" stroke="#e9d5ff"/>
+  <text x="1041" y="40" text-anchor="middle" class="font badge-text" fill="#6d28d9">MCP 生态</text>
+
+  <!-- Divider -->
+  <line x1="32" y1="72" x2="1088" y2="72" stroke="#f1f5f9" stroke-width="1.5"/>
+
+  <!-- ==================== LAYER 1: FRONTEND & BFF ==================== -->
+  <rect x="32" y="88" width="816" height="96" rx="12" fill="#f8fbff" stroke="#bfdbfe" stroke-width="1.2"/>
+  <text x="48" y="108" class="font section-tag" fill="#1d4ed8">FRONTEND &amp; BFF PROXY LAYER (NEXT.JS 15 · REACT 19)</text>
+
+  <!-- Browser UI Card -->
+  <rect x="48" y="118" width="330" height="54" rx="9" fill="#ffffff" stroke="#93c5fd" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="64" y="139" class="font card-title">浏览器交互界面</text>
+  <text x="64" y="158" class="font card-sub">SSE 流式进度 · 确认式加购卡片 · 反馈与指标看板</text>
+
+  <!-- Arrow Browser -> BFF -->
+  <line x1="378" y1="145" x2="492" y2="145" stroke="#64748b" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+  <text x="435" y="138" text-anchor="middle" class="font edge-label">/api/chat/stream</text>
+  <text x="435" y="160" text-anchor="middle" class="font pill-sub">/feedback · /metrics</text>
+
+  <!-- BFF Card -->
+  <rect x="498" y="118" width="334" height="54" rx="9" fill="#ffffff" stroke="#93c5fd" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="514" y="139" class="font card-title">Next.js 服务端代理 (BFF)</text>
+  <text x="514" y="158" class="font card-sub">会话 Cookie · 请求校验 · 确认复核与 409 冲突拦截</text>
+
+  <!-- ==================== ARROW BFF -> BACKEND ==================== -->
+  <line x1="665" y1="184" x2="665" y2="218" stroke="#4f46e5" stroke-width="1.8" marker-end="url(#arrow-indigo)"/>
+  <rect x="546" y="191" width="238" height="20" rx="10" fill="#eef2ff"/>
+  <text x="665" y="205" text-anchor="middle" class="font edge-label" fill="#4338ca">内网通信: /agent/stream · /carts/* · /products/*</text>
+
+  <!-- ==================== LAYER 2: PYTHON BACKEND CONTAINER ==================== -->
+  <rect x="32" y="222" width="816" height="404" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="48" y="244" class="font section-tag" fill="#334155">SHOPPING AGENT BACKEND (FASTAPI + PYTHON LANGGRAPH · 纯 PYTHON 容器)</text>
+
+  <!-- Bounded Loop Group -->
+  <rect x="48" y="256" width="516" height="142" rx="10" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.2"/>
+  <text x="62" y="275" class="font section-tag" fill="#4338ca">BOUNDED AGENT LOOP (单轮上限 6 步 / 55s 预算)</text>
+
+  <!-- decide node -->
+  <rect x="62" y="286" width="218" height="96" rx="9" fill="#ffffff" stroke="#818cf8" stroke-width="1.3" filter="url(#shadow)"/>
+  <rect x="74" y="296" width="58" height="18" rx="9" fill="#e0e7ff"/>
+  <text x="103" y="309" text-anchor="middle" class="font badge-text" fill="#3730a3">decide</text>
+  <text x="140" y="309" class="font card-title">模型决策节点</text>
+  <text x="74" y="331" class="font card-sub">· 原生多工具调用 (required)</text>
+  <text x="74" y="349" class="font card-sub">· httpx 连接池 + 429/5xx 重试</text>
+  <text x="74" y="367" class="font card-sub">· 额度耗尽自动切换备用模型</text>
+
+  <!-- execute node -->
+  <rect x="332" y="286" width="218" height="96" rx="9" fill="#ffffff" stroke="#818cf8" stroke-width="1.3" filter="url(#shadow)"/>
+  <rect x="344" y="296" width="64" height="18" rx="9" fill="#e0e7ff"/>
+  <text x="376" y="309" text-anchor="middle" class="font badge-text" fill="#3730a3">execute</text>
+  <text x="416" y="309" class="font card-title">安全执行节点</text>
+  <text x="344" y="331" class="font card-sub">· 只读白名单 &amp; 参数来源校验</text>
+  <text x="344" y="349" class="font card-sub">· 重复调用指纹拦截防空转</text>
+  <text x="344" y="367" class="font card-sub">· Prompt Injection 越权拦截</text>
+
+  <!-- Loop Arrows between decide and execute -->
+  <path d="M 280 322 L 326 322" stroke="#4f46e5" stroke-width="1.6" marker-end="url(#arrow-indigo)"/>
+  <path d="M 332 350 L 286 350" stroke="#4f46e5" stroke-width="1.6" marker-end="url(#arrow-indigo)"/>
+  <text x="306" y="315" text-anchor="middle" class="font pill-sub">调用</text>
+  <text x="306" y="366" text-anchor="middle" class="font pill-sub">回传</text>
+
+  <!-- Arrow Loop -> Summary -->
+  <line x1="564" y1="334" x2="604" y2="334" stroke="#059669" stroke-width="1.8" marker-end="url(#arrow-emerald)"/>
+
+  <!-- summary node -->
+  <rect x="610" y="256" width="222" height="142" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.3" filter="url(#shadow)"/>
+  <rect x="624" y="270" width="72" height="18" rx="9" fill="#d1fae5"/>
+  <text x="660" y="283" text-anchor="middle" class="font badge-text" fill="#065f46">summary</text>
+  <text x="624" y="308" class="font card-title">受控中文摘要节点</text>
+  <text x="624" y="330" class="font card-sub">· groundedSummary 受控生成</text>
+  <text x="624" y="349" class="font card-sub">· 仅消费已核验工具 JSON</text>
+  <text x="624" y="368" class="font card-sub">· 事实卡片直出，禁止编造价格</text>
+  <text x="624" y="387" class="font card-sub">· 全链路 SSE 实时事件流推送</text>
+
+  <!-- Arrow execute -> Tools -->
+  <line x1="440" y1="382" x2="440" y2="416" stroke="#64748b" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+
+  <!-- Tools Layer -->
+  <rect x="48" y="422" width="784" height="90" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1.2"/>
+  <text x="62" y="441" class="font section-tag" fill="#b45309">7 类只读与建议工具层 (READ-ONLY TOOLS &amp; EVIDENCE LAYERING)</text>
+
+  <!-- 4 Tool Cards -->
+  <rect x="62" y="451" width="176" height="48" rx="8" fill="#ffffff" stroke="#fcd34d" stroke-width="1.1"/>
+  <text x="74" y="471" class="font pill-title">目录检索与详情</text>
+  <text x="74" y="488" class="font pill-sub">20 SKU · 编号/症状/推荐</text>
+
+  <rect x="252" y="451" width="182" height="48" rx="8" fill="#ffffff" stroke="#fcd34d" stroke-width="1.1"/>
+  <text x="264" y="471" class="font pill-title">精确型号适配核验</text>
+  <text x="264" y="488" class="font pill-sub">90 天审核快照 · 冲突拒答</text>
+
+  <rect x="448" y="451" width="182" height="48" rx="8" fill="#ffffff" stroke="#fcd34d" stroke-width="1.1"/>
+  <text x="460" y="471" class="font pill-title">双语 RAG 知识检索</text>
+  <text x="460" y="488" class="font pill-sub">BM25 + BGE + RRF · 越界拦截</text>
+
+  <rect x="644" y="451" width="174" height="48" rx="8" fill="#ffffff" stroke="#fcd34d" stroke-width="1.1"/>
+  <text x="656" y="471" class="font pill-title">安装 / 排障 / 加购建议</text>
+  <text x="656" y="488" class="font pill-sub">HITL 仅生成待确认建议</text>
+
+  <!-- Arrow Tools -> SQLite -->
+  <line x1="440" y1="512" x2="440" y2="534" stroke="#64748b" stroke-width="1.6" marker-end="url(#arrow-slate)"/>
+
+  <!-- Persistence Layer -->
+  <rect x="48" y="538" width="784" height="72" rx="10" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2"/>
+  <text x="62" y="557" class="font section-tag" fill="#334155">SQLITE 持久化与事务护栏 (STATE &amp; IDEMPOTENT STORAGE)</text>
+
+  <rect x="62" y="566" width="242" height="32" rx="7" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="183" y="586" text-anchor="middle" class="font pill-title">会话记忆 · 跨轮候选 · 执行租约</text>
+
+  <rect x="319" y="566" width="242" height="32" rx="7" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="440" y="586" text-anchor="middle" class="font pill-title">确认式购物车 (事务 + 幂等键)</text>
+
+  <rect x="576" y="566" width="242" height="32" rx="7" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="697" y="586" text-anchor="middle" class="font pill-title">用户反馈落盘 · 运行指标聚合</text>
+
+  <!-- ==================== RIGHT LANE: INDEPENDENT MCP ==================== -->
+  <rect x="872" y="222" width="216" height="404" rx="14" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.3"/>
+  <text x="888" y="244" class="font section-tag" fill="#6d28d9">INDEPENDENT MCP</text>
+
+  <!-- External MCP Client -->
+  <rect x="888" y="272" width="184" height="74" rx="10" fill="#ffffff" stroke="#c084fc" stroke-width="1.2" filter="url(#shadow)"/>
+  <text x="980" y="298" text-anchor="middle" class="font card-title">外部 AI 客户端</text>
+  <text x="980" y="318" text-anchor="middle" class="font card-sub">Claude / Cursor / MCP Host</text>
+  <text x="980" y="335" text-anchor="middle" class="font pill-sub">按标准协议接入</text>
+
+  <!-- Arrow Client -> FastMCP -->
+  <line x1="980" y1="346" x2="980" y2="416" stroke="#7c3aed" stroke-width="1.8" marker-end="url(#arrow-purple)"/>
+  <rect x="920" y="370" width="120" height="22" rx="11" fill="#f3e8ff"/>
+  <text x="980" y="385" text-anchor="middle" class="font edge-label" fill="#6d28d9">MCP stdio (只读)</text>
+
+  <!-- FastMCP Server -->
+  <rect x="888" y="422" width="184" height="90" rx="10" fill="#ffffff" stroke="#a855f7" stroke-width="1.3" filter="url(#shadow)"/>
+  <text x="980" y="448" text-anchor="middle" class="font card-title">FastMCP 独立服务</text>
+  <text x="980" y="468" text-anchor="middle" class="font pill-sub">app.agent.mcp_server</text>
+  <text x="980" y="488" text-anchor="middle" class="font card-sub">商品搜索 · 详情 · 知识检索</text>
+  <text x="980" y="504" text-anchor="middle" class="font badge-text" fill="#7c3aed">无写入权限</text>
+
+  <!-- Arrow FastMCP -> Tools Layer -->
+  <line x1="888" y1="467" x2="838" y2="467" stroke="#7c3aed" stroke-width="1.8" marker-end="url(#arrow-purple)"/>
+
+  <!-- Quality Summary Box at Bottom Right -->
+  <rect x="888" y="538" width="184" height="72" rx="10" fill="#ffffff" stroke="#e9d5ff" stroke-width="1.2"/>
+  <text x="980" y="559" text-anchor="middle" class="font badge-text" fill="#6d28d9">可复现质量基线</text>
+  <text x="980" y="578" text-anchor="middle" class="font card-sub">130 项自动化测试全通过</text>
+  <text x="980" y="596" text-anchor="middle" class="font card-sub">Recall@3 100% · 拒答 100%</text>
+</svg>
